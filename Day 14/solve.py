@@ -76,8 +76,6 @@ def binary_search(chems: dict, n: int):
             break
     return lo
             
-        
-
 if __name__ == '__main__':
     lines = open('input.txt','r').readlines()
     recipes = get_recipes(lines)

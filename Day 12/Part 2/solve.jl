@@ -1,3 +1,4 @@
+
 function step(p::Array{Int64,1},v::Array{Int64,1})
     for i in 1:4
         v[i] += sum([(p[i] < p[j]) for j in 1:4])
@@ -59,4 +60,5 @@ v = [0 0 0
      0 0 0]
 
 answer = solve(p,v)
+
 println(answer)

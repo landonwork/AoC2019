@@ -10,7 +10,7 @@ import numpy as np
 
 
 class IntCode:
-    
+    """"""
     def __init__(self, code, fn1, fn2):
         
         def inp():
@@ -41,7 +41,7 @@ class IntCode:
             self.ops[opcode % 100]()
             if self.pause:
                 self.pause = False
-                break
+                break    
     
     def add(self):
         addends = self.get_params(2)

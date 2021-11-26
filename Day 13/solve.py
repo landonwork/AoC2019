@@ -66,4 +66,5 @@ def inp2():
 a = IntCode(instructions,inp2,out2)
 
 a.run()
+
 print(display[0])
